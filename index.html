@@ -1,176 +1,184 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>IntellectYM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntellectYM</title>
 </head>
+
 <body>
-     <header class="header">
+    <header class="header">
         <img class="header__logo" src="images/Logo.png" alt="Логотип" width="50" height="50">
         <h1 class="header__title">IntellectYM</h1>
-        <a  class="header__button" href="login.html">Вход</a>
-        <a class="header__button"  href="registration.html">Регистрация</a>
+        <a class="header__button" href="login.html">Вход</a>
+        <a class="header__button" href="registration.html">Регистрация</a>
         <nav class="header__menu">
-             <ul class="menu">
-                  <li class="menuitem menuitem--active"><a class="menu__link>" href="index.html">Главная</a></li>
-                  <li class="menu__item"><a href="#onlineschool">Онлайн-школа</a></li>
-                  <li><a href="#courses">Курсы</a></li>
-                  <li><a href="#catalog">Каталог</a></li>
-             </ul>
+            <ul class="menu">
+                <li class="menu__item menu__item--active"><a class="menu__link>" href="index.html">Главная</a></li>
+                <li class="menu__item"><a class="menu__link" href="#onlineschool">Онлайн-школа</a></li>
+                <li class="menu__item"><a class="menu__link" href="#courses">Курсы</a></li>
+                <li class="menu__item"><a class="menu__link" href="#catalog">Каталог</a></li>
+            </ul>
         </nav>
         <a href="login.html">Вход</a>
-     </header>
+    </header>
 
-     <main class="main">
-        <section>
-           <div>
-              <h2>Направления подготовки</h2>
-           </div>
-            <ul>
-               <li>
-                   <img src="images/banner 1.png" alt="Буквы алфавита" width="150" height="150">
-                   <h3>Русский язык</h3>
-                   <a href="#">Узнать подробнее</a>
-               </li>
-               <li>
-                   <img src="images/banner 2.png" alt="Цифры" width="150" height="150">
-                   <h3>Математика</h3>
-                   <a href="#">Узнать подробнее</a>
-               </li>
-               <li>
-                   <img scr="images/banner 3.png" alt="Природа" width="150" height="150">
-                   <h3>Окружающий мир</h3>
-                   <a href="#">Узнать подробнее</a>
-               </li>
-               <li>
-                   <img scr="images/banner 4.png" alt="Книга" width="150" height="150">
-                   <h3>Литература</h3>
-                   <a href="#">Узнать подробнее</a>
-               </li>
+    <main class="main">
+        <section class="training">
+            <h2 class="training__title">Направления подготовки</h2>
+            <ul class="list">
+                <li class="training__item">
+                    <img class="training__image" src="images/banner 1.png" alt="Буквы алфавита" width="150" height="150">
+                    <h3 class="training__name">Русский язык</h3>
+                    <a class="training__link" href="#">Узнать подробнее</a>
+                </li>
+                <li class="training__item">
+                    <img class="training__image" src="images/banner 2.png" alt="Цифры" width="150" height="150">
+                    <h3 class="training__name">Математика</h3>
+                    <a class="training__link" href="#">Узнать подробнее</a>
+                </li>
+                <li class="training__item">
+                    <img class="training__title" scr="images/banner 3.png" alt="Природа" width="150" height="150">
+                    <h3 class="training__name">Окружающий мир</h3>
+                    <a class="training__link" href="#">Узнать подробнее</a>
+                </li>
+                <li class="training__item">
+                    <img class="training__image" scr="images/banner 4.png" alt="Книга" width="150" height="150">
+                    <h3 class="training__name">Литература</h3>
+                    <a class="training__link"  href="#">Узнать подробнее</a>
+                </li>
             </ul>
         </section>
         <section>
-      <div class="teachers">
-        <h2 class="teachers__title">Наши преподователи</h2>
-        <div class="teachers__card">
-              <img class="teachers__image" src="images/teacher1.png" alt="Фото" width="150" height="150">
-              <p class="teachers__name">Швецова Мария Васильевна</p>
-              <p class="teachers__desc">Математика</p>
-          </div>  
-          < div class="teachers__card">
-              <img class="teachers__image" src="images/teacher2.png" alt="Фото" width="150" height="150">
-              <p class="teachers__name">Соколова Эльвира Михайловна</p>
-              <p class="teachers__desc">Русский язык</p>
-          </div>
-          <div class="teachers__card">
-              <img class="teachers__image" src="images/teacher3.png" alt="Фото" width="150" height="150">
-              <p class="teachers__name">Яковлева Софья Сергеевна</p>
-              <p class="teachers__desc">Окружающий мир</p>
-          </div>
-          <div class="teachers__card">
-              <img class="teachers__image"  src="images/teacher4.png" alt="Фото" width="150" height="150">
-              <p class="teachers__name">Тимофеева Ольга Эдуардовна</p>
-              <p class="teachers__desc">Литература</p>
-          </div>
-        <a href="#" class="leftarrow block"><img src="images/leftarrow.svg"></img></a>
-        <span>1 - 3</span>
-        <a href="#" class="rightarrow block"><img src="images/rightarrow.svg"></img></a>
-      </div>
-    </div>
+            <div class="teachers">
+                <h2 class="teachers__title">Наши преподователи</h2>
+                <div class="teachers__card">
+                    <img class="teachers__image" src="images/teacher1.png" alt="Фото" width="150" height="150">
+                    <p class="teachers__name">Швецова Мария Васильевна</p>
+                    <p class="teachers__desc">Математика</p>
+                </div>
+                <div class="teachers__card">
+                    <img class="teachers__image" src="images/teacher2.png" alt="Фото" width="150" height="150">
+                    <p class="teachers__name">Соколова Эльвира Михайловна</p>
+                    <p class="teachers__desc">Русский язык</p>
+            </div>
+            <div class="teachers__card">
+                <img class="teachers__image" src="images/teacher3.png" alt="Фото" width="150" height="150">
+                <p class="teachers__name">Яковлева Софья Сергеевна</p>
+                <p class="teachers__desc">Окружающий мир</p>
+            </div>
+            <div class="teachers__card">
+                <img class="teachers__image" src="images/teacher4.png" alt="Фото" width="150" height="150">
+                <p class="teachers__name">Тимофеева Ольга Эдуардовна</p>
+                <p class="teachers__desc">Литература</p>
+            </div>
+            <a href="#" class="leftarrow block"><img src="images/leftarrow.svg"></img></a>
+            <span>1 - 3</span>
+            <a href="#" class="rightarrow block"><img src="images/rightarrow.svg"></img></a>
+            </div>
+            </div>
         </section>
-        <section>   
-      <div>
-        <h2>На нашей платформе есть всё самое нужное для учёбы</h2>
-      </div>
-          <div>
-         <h3>Платформа с ИИ</h3>
-          </div>
-          <div>
-         <h3>Поддержка учеников</h3>
-          </div>
-          <div>
-         <h3>Отслеживание успеваемости</h3> 
-          </div>
-          <div>
-         <h3>Геймификация в обучении</h3>
-          </div>
-          <div>
-         <h3>Комьюнити
-<section>
-        <h3>Отзывы</h3>
-        <div class="direc">
-          <div>
-            <span>Отзывы</span>
-          </div>
-          <div>
-            <span>Отзывы</span>
-          </div>
-          <div>
-            <span>Отзывы</span>
-          </div>
-        </div>
-        <a href="#" class="leftarrow block"><img src="images/leftarrow.svg"></img></a>
-        <span>1 - 3</span>
-        <a href="#" class="rightarrow block"><img src="images/rightarrow.svg"></img></a>
-      </div>
-    </div>
-   
-    <div>
-        <h1>Часто задаваемые вопросы (FAQ)</h1>
-        <div class="faq-item">
-            <h2>Как записаться на занятия?</h2>
+        <section>
+            <div class="content">
+                <h2 class="content__title">На нашей платформе есть всё самое нужное для учёбы</h2>
+            </div>
+            <div class="content">
+                <h3 class="content__name">Платформа с ИИ</h3>
+            </div>
+            <div class="">
+                <h3 class="content__name">Поддержка учеников</h3>
+            </div>
+            <div class="">
+                <h3 class="content__name">Отслеживание успеваемости</h3>
+            </div>
+            <div class="">
+                <h3 class="content__name">Геймификация в обучении</h3>
+            </div>
+            <div class="">
+                <h3>Комьюнити</h3>
+            </div>
+        </section>
+        <section>
+            <h3>Отзывы</h3>
+            <div class="direc">
+                <div>
+                    <span>Отзывы</span>
+                </div>
+                <div>
+                    <span>Отзывы</span>
+                </div>
+                <div>
+                    <span>Отзывы</span>
+                </div>
+            </div>
+            <a href="#" class="leftarrow block"><img src="images/leftarrow.svg"></img></a>
+            <span>1 - 3</span>
+            <a href="#" class="rightarrow block"><img src="images/rightarrow.svg"></img></a>
+            </div>
+            </div>
+
             <div>
-                <p>Чтобы записаться на занятия, вам нужно заполнить форму на нашем сайте или связаться с нашим менеджером.</p>
+                <h1>Часто задаваемые вопросы (FAQ)</h1>
+                <div class="faq__item">
+                    <h2 class="faq__question">Как записаться на занятия?</h2>
+                    <div class="faq__answer">
+                        <p>Чтобы записаться на занятия, вам нужно заполнить форму на нашем сайте или связаться с нашим
+                            менеджером.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <h2 class="faq__question">Какие предметы вы предлагаете?</h2>
+                    <div class="faq__answer">
+                        <p>Мы предлагаем занятия по математике, русскому языку, окружающему миру и другим предметам
+                            начальной школы.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <h2 class="faq__question">Как проходят занятия?</h2>
+                    <div class="faq__answer">
+                        <p>Занятия проводятся в формате онлайн через видеоконференции. Вы получите доступ к материалам и
+                            записям уроков.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <h2 class="faq__question">Сколько стоит обучение?</h2>
+                    <div class="faq__answer">
+                        <p>Стоимость обучения зависит от выбранного пакета и количества занятий. Подробную информацию
+                            можно найти на странице тарифов.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <h2 class="faq__question">Есть ли пробный урок?</h2>
+                    <div class="faq__answer">
+                        <p>Да, мы предлагаем пробный урок для новых учеников. Вы можете записаться на него через наш
+                            сайт.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="faq-item">
-            <h2 class="faq-question">Какие предметы вы предлагаете?</h2>
-            <div class="faq-answer">
-                <p>Мы предлагаем занятия по математике, русскому языку, английскому языку и другим предметам начальной школы.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <h2 class="faq-question">Как проходят занятия?</h2>
-            <div class="faq-answer">
-                <p>Занятия проводятся в формате онлайн через видеоконференции. Вы получите доступ к материалам и записям уроков.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <h2 class="faq-question">Сколько стоит обучение?</h2>
-            <div class="faq-answer">
-                <p>Стоимость обучения зависит от выбранного пакета и количества занятий. Подробную информацию можно найти на странице тарифов.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <h2 class="faq-question">Есть ли пробный урок?</h2>
-            <div class="faq-answer">
-                <p>Да, мы предлагаем пробный урок для новых учеников. Вы можете записаться на него через наш сайт.</p>
-            </div>
-        </div>
-    </div>
-      <footer>
-        <div>
-            <h3>Контактная информация</h3>
-            <p>Email: <a href="mailto:support@school.com">support@school.com</a></p>
-            <p>Телефон: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-        </div>
-        <div>
-            <h3>Чат с поддержкой</h3>
-            <div class="social-icons">
-                <a href="https://t.me/your_bot" target="_blank" aria-label="Telegram">
-                    <img src="TG logo.svg" alt="Telegram" />
-                </a>
-                <a href="https://vk.com/your_page" target="_blank" aria-label="ВКонтакте">
-                    <img src="vk_logo_.svg" alt="ВКонтакте" />
-                </a>
-            </div>
-        </div>
-    </div>
-    <div>
-        <p><a href="/privacy-policy.html">Политика обработки персональных данных</a></p>
-        <p>Государственная лицензия: №123456 от 01.01.2023</p>
-    </div>
-</footer>
+            <footer>
+                <div>
+                    <h3>Контактная информация</h3>
+                    <p>Email: <a href="mailto:support@school.com">support@school.com</a></p>
+                    <p>Телефон: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                </div>
+                <div>
+                    <h3>Чат с поддержкой</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" aria-label="Telegram">
+                            <img src="TG logo.svg" alt="Telegram" />
+                        </a>
+                        <a href="#" target="_blank" aria-label="ВКонтакте">
+                            <img src="vk_logo_.svg" alt="ВКонтакте" />
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <p><a href="/privacy-policy.html">Политика обработки персональных данных</a></p>
+                    <p>Государственная лицензия: №123456 от 01.01.2023</p>
+                </div>
+            </footer>
 </body>
+
 </html>
