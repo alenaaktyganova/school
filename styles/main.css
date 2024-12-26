@@ -1,1 +1,254 @@
+.main__container {
+    padding: 20px;
+}
 
+.training {
+    text-align: center;
+    background-color: #ffd17c ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.training__item {
+    background-color: #f5eeca;
+    border: 1px solid #f59f00;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 6px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.training__item:hover {
+    transform: scale(1.05);
+}
+
+.training__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.training__name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.training__link {
+    text-decoration: none;
+    color: #a18116b6;
+    font-weight: bold;
+}
+
+.training__link:hover {
+    text-decoration: underline;
+}
+
+.teachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.teachers__title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+       background-color: #ffeb8a ;
+       padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    }
+
+.teachers__card {
+    background-color: #f9f9f9;
+    border: 1px solid #f59f00;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.teachers__card:hover {
+    transform: scale(1.05);
+}
+
+.teachers__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.teachers__name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.teachers__desc {
+    font-size: 16px;
+    color: #555;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.content__title {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content__subtitle {
+    background-color: #ffcc80;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.content__subtitle:nth-child(even) .content__name {
+    background-color: #ffb74d;
+}
+
+.content__subtitle:hover {
+    background-color: #ffa726;
+}
+
+.content__name {
+    margin: 0;
+}
+
+.reviews {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .reviews__title {
+      margin-bottom: 20px;
+  }
+  
+  .review {
+    display: inline-block;
+    width: 300px; 
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+    vertical-align: top;
+  }
+  
+  .reviews > .review:nth-child(1){
+      margin-right: auto;
+  }
+  
+  .reviews > .review:nth-child(3){
+      margin-left: auto;
+  }
+  
+  .reviews > div {
+      display: inline-block;
+      margin-left: auto;
+  }
+  
+  
+  .parent__name,
+  .student__name {
+      font-weight: bold;
+      margin-bottom: 5px; 
+  }
+  
+  .parent__feedback,
+  .student__feedback {
+    color: #555; 
+    line-height: 1.5; 
+  }
+  
+  
+  .reviews > a {
+      display: inline-block; 
+      text-decoration: none; 
+      cursor: pointer; 
+  }
+  
+  .reviews > a:first-of-type {
+      margin-right: 10px; 
+  }
+  
+  .reviews > a:last-of-type {
+      margin-left: 10px; 
+  }
+  section:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .centered-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.leftarrow__block,
+.rightarrow__block {
+    display: inline-block; 
+}
+
+  
+.faq__container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    background-color: #ffeb8a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.faq__item {
+    margin-bottom: 15px;
+}
+
+.faq__question {
+    font-weight: bold;
+    color: #333;
+}
+
+.faq__answer {
+    margin-top: 5px;
+}
