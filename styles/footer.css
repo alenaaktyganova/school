@@ -10,12 +10,12 @@
 .text {
     margin: 5px 0;
 }
-.social__icons {
+.footer__icons {
     display: flex; 
     justify-content: center; 
     margin: 10px 0; 
 }
-.social__icons a {
+.footer__icons a {
     margin: 0 10px; 
 }
 .footer p {
