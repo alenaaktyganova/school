@@ -173,14 +173,11 @@
       margin-left: auto;
   }
   
-  
-  .parent__name,
   .student__name {
       font-weight: bold;
       margin-bottom: 5px; 
   }
   
-  .parent__feedback,
   .student__feedback {
     color: #555; 
     line-height: 1.5; 
