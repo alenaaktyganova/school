@@ -152,82 +152,60 @@
     background-color: #ffab40;
 }
 
+
+
 .reviews {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .reviews__title {
-      margin-bottom: 20px;
-  }
-  
-  .review {
-    display: inline-block;
-    width: 300px; 
-    margin: 10px;
-    padding: 15px;
-    background-color: #fff; 
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left; 
-    vertical-align: top;
-  }
-  
-  .reviews > .review:nth-child(1){
-      margin-right: auto;
-  }
-  
-  .reviews > .review:nth-child(3){
-      margin-left: auto;
-  }
-  
-  .reviews > div {
-      display: inline-block;
-      margin-left: auto;
-  }
-  
-  .student__name {
-      font-weight: bold;
-      margin-bottom: 5px; 
-  }
-  
-  .student__feedback {
-    color: #555; 
-    line-height: 1.5; 
-  }
-  
-  
-  .reviews > a {
-      display: inline-block; 
-      text-decoration: none; 
-      cursor: pointer; 
-  }
-  
-  .reviews > a:first-of-type {
-      margin-right: 10px; 
-  }
-  
-  .reviews > a:last-of-type {
-      margin-left: 10px; 
-  }
-  section:nth-child(4){
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.reviews__title {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.review {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    background-color: #f1c489;
+    min-width: 200px; 
+}
+
+
+.reviews-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between; 
+    overflow-x: auto; 
 }
 
-  .centered-container {
+
+.review__name {
+    font-weight: bold; 
+}
+
+
+.review__feedback {
+    margin-top: 10px; 
+}
+
+
+.navigation {
     display: flex; 
-    align-items: center; 
     justify-content: center; 
+    margin-top: 20px; 
 }
 
-.leftarrow__block,
-.rightarrow__block {
-    display: inline-block; 
+
+.leftarrow__block, .rightarrow__block {
+    margin: 0 10px; 
+    cursor: pointer; 
 }
 
-  
+
 .faq__container {
     max-width: 800px;
     margin: 0 auto;
