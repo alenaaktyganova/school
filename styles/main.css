@@ -200,7 +200,7 @@
 }
 
 
-.leftarrow__block, .rightarrow__block {
+.navigation__left, .navigation__right {
     margin: 0 10px; 
     cursor: pointer; 
 }
